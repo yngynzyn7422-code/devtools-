@@ -27,10 +27,11 @@ Package: ru.mentee.power
 
 MenteeProgress Fields
 
-Field	Type	Description
-menteeName	String	Name of the mentee
-sprintNumber	int	Sprint number
-plannedHoursPerWeek	int	Planned study hours per week
+| Поле | Тип | Описание |
+|---|---|---|
+| `menteeName` | `String` | Имя студента |
+| `sprintNumber` | `int` | Номер спринта |
+| `plannedHoursPerWeek` | `int` | Запланированные часы обучения в неделю |
 
 Readiness Rule
 
