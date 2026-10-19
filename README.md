@@ -35,3 +35,14 @@ plannedHoursPerWeek	int	Planned study hours per week
 Readiness Rule
 
 The readyForSprint() method returns true when plannedHoursPerWeek is greater than or equal to 3. Otherwise, it returns false.
+Git локальный цикл
+
+1. Изменить файлы в рабочей директории (Working Directory).
+2. Добавить нужные изменения в подготовленную область (Staging Area).
+3. Создать коммит (Commit), сохранив подготовленные изменения в истории репозитория.
+
+Правило веток: feature/DVT-X
+
+Для работы над отдельной задачей создаётся ветка с именем feature/DVT-X, где X — номер задания. Например, feature/DVT-3.
+
+Изменения задачи следует фиксировать коммитами в соответствующей ветке, не смешивая независимые задачи в одном коммите.
