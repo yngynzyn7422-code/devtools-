@@ -43,3 +43,6 @@ bin/
 .DS_Store
 # macOS
 .DS_Store
+
+# IntelliJ IDEA project settings
+.idea/
